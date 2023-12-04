@@ -1,0 +1,64 @@
+<html>
+
+<body>
+  <div>
+    <table>
+      <thead class="table__head">
+        <tr class="table__head-row">
+          <th class="table__head-cell table__cell-container">
+            <div class="table__inset-container" data-test-explicit-display="flex">
+              <div class="table__head-inset">
+                CellFirstHeader
+              </div>
+              <div class="table__head-inset">
+                CellSecondHeader
+              </div>
+            </div>
+          </th>
+          <th class="table__head-cell">
+            <div class="table__head-inset">
+              FirstNormalHeader
+            </div>
+          </th>
+          <th class="table__head-cell">
+            <div class="table__head-inset">
+              SecondNormalHeader
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody class="table__body">
+        <tr data-test-id="2018-05-30-000001" class="table__row">
+          <td class="table__cell table__cell-container">
+            <div class="table__inset-container" data-test-explicit-display="flex">
+              <div class="table__inset">2017-07-05</div>
+              <div class="table__inset">Nonsense</div>
+            </div>
+          </td>
+          <td class="table__cell table__cell--invalid">
+            <div class="table__inset"><span class="table__result-container">X</span></div>
+          </td>
+          <td class="table__cell">
+            <div class="table__inset"><span class="table__result-container">Y</span></div>
+          </td>
+        </tr>
+        <tr data-test-id="2018-05-30-000001" class="table__row">
+          <td class="table__cell table__cell-container">
+            <div class="table__inset-container" data-test-explicit-display="flex">
+              <div class="table__inset">2017-07-06</div>
+              <div class="table__inset">Other Nonsense</div>
+            </div>
+          </td>
+          <td class="table__cell">
+            <div class="table__inset"></div>
+          </td>
+          <td class="table__cell">
+            <div class="table__inset"></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
